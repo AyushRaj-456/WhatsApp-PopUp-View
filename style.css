@@ -1,0 +1,281 @@
+body {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+   /* display:flex;*/
+    align-items:center;
+    justify-content:center;
+    background:#272829;
+    
+}
+
+.logo{
+    width:55px;
+    height:55px;
+    border-radius:100px;
+    border:1px solid #fff;
+    box-shadow: 0 0 25px rgba(255,255,255,.05);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#4AC959;
+    cursor:pointer ;
+}
+
+.z,.one,.two,.thr{
+    cursor:pointer ;
+    font-size:13px;
+}
+
+#whats{
+    background:#fff;
+   /* -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;*/
+    color:#fff;
+    background:#4AC959;
+    
+    font-size:40px;
+}
+.main{
+    margin:10px;
+    transition:all .75s ease;
+    width:0px;
+    height:0px;
+    background:rgba(255,255,255,.08);
+    border-radius:10px;
+    overflow:hidden;
+    /border:1px solid grey;/
+}
+
+.head{
+    text-align:right;
+    width:100%;
+    background:rgba(255,255,255,.8);
+}
+
+#cross{
+    display:none;
+    padding:5px 5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.whatshead{
+    width:100%;
+    height:90px;
+    background:#272829;
+    font-family:"Poppins", sans-serif;
+}
+
+.app{
+    float:left;
+    padding:15px;
+    font-weight:bold;
+    color:grey;
+    font-size:20px;
+}
+
+.dot{
+    color:grey;
+    float:right;
+    padding:15px;
+    font-size:18px;
+}
+
+#s{
+    margin-right:5px;
+
+}
+
+table{
+    float:left;
+}
+
+.z{
+    font-size:16px;
+}
+
+td{
+    color:grey;
+    padding:0px 15px;    
+    
+}
+
+td:hover{
+    border-bottom:2px solid #4AC959;
+    color:#4AC959;
+    
+}
+
+.sjobs{
+   /* border-bottom:1px solid grey;*/
+    height:62px;
+    font-family: 'Italiana', serif;
+}
+
+.img1{
+    border-radius:100px;
+    width:50px;
+    height:50px;
+ 
+}
+
+
+
+img{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-left:20px;
+    border-radius:100px;
+    margin-top:10px;
+}
+
+.c1{
+    margin-top:10px;
+    float:left;
+    margin-left:10px;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.c1s{
+    margin-top:15px;
+    float:left;
+    
+    margin-left:10px;
+    color:#fff;
+    font-weight:bold;
+}
+
+
+.text1{
+    font-size:12px;
+    float:left;
+    margin-left:20px;
+    color:#4AC959;
+}
+
+.text2{
+    font-size:12px;
+    float:left;
+    margin-left:20px;
+    color:grey;
+}
+
+.sata{
+    position:absolute ;
+    transition:all .5s ease;
+    height:333px;
+    margin-top:1px;
+    width:0px;
+    border-radius:10px;
+    background:#272829;
+    overflow:hidden;
+}
+
+#crosss{
+    display:none;
+    margin-top:5px;
+    font-size:20px;
+}
+
+.sjobs:hover{
+    background:rgba(255,255,255,.05);
+}
+
+#img1s{
+    border-radius:100px;
+    width:50px;
+    height:50px;
+    border:2px solid #4AC959;
+}
+
+#img1t{
+    border-radius:100px;
+    width:50px;
+    height:50px;
+    border:2px solid #4AC959;
+}
+
+.radd{
+    margin-top:5px;
+    border-radius:5px;
+    width:100%;
+    text-align:left;
+    margin-left:0px;
+    padding:5px;
+    background-color:rgba(255,255,255,.5);
+    font-family:"Poppins", sans-serif;
+    
+}
+
+
+.sjobs , .sjobs{
+    cursor:pointer ;
+}
+
+
+#s:hover{
+    color:#fff;
+}
+
+#h:hover{
+    color:#fff;
+}
+
+footer{
+    font-size:15px;
+    font-family:"Poppins", sans-serif;
+    color:grey;
+    
+}
+
+.ay{
+    color:#4AC959;
+    font-weight:bold;
+}
+
+.intro{
+    font-size:18px;
+    color:#fff;
+    font-family:"Poppins", sans-serif;
+    
+   /* animation:1s anim linear infinite ;*/
+    margin-left:5px;
+    margin-right:5px;
+    transition: all 1s ease;
+}
+
+.inw{
+    font-size:20px;
+    font-family:"Poppins", sans-serif;
+    color:#4AC959;
+    font-weight:bold;
+    border-bottom:1px solid #4AC959;
+}
+
+@keyframes anim{
+    50%{
+       width:150px;
+    }
+}
+
+.typi{
+    color:#4AC959;
+    float:right;
+    font-size:10px;
+    margin-right:5px;
+    font-weight:bold;
+    font-family:"Syne", sans-serif;
+}
+
+.typ{
+    font-weight:bold;
+    color:grey;
+    float:right;
+    font-size:10px;
+    margin-right:5px;
+    font-family:"Syne", sans-serif;
+}
